@@ -26,10 +26,18 @@
   justify-content: flex-end;
 }
 
+.header__navbar-link {
+  min-width: 42px;
+  min-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .intro__content {
   display: flex;
   align-items: center;
-  height: 227px;
+  height: 223px;
 }
 
 .intro__content-container {
@@ -93,6 +101,7 @@ p {
 
 a {
   text-decoration: none;
+  text-align: center;
   color: #242635;
 }
 a:hover {

@@ -1,3 +1,5 @@
+// Imported partials 
+
 // ----- Mobile first header, min screen size 320px ----- //
 .header__navbar {
   height: 42px;
@@ -27,6 +29,13 @@
     justify-content: flex-end;
     // border: 1px solid blue;
   }
+}
+.header__navbar-link {
+  min-width: 42px;
+  min-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 // ----- Ipad size styling ----- //
