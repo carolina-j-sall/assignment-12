@@ -1,5 +1,6 @@
 // ----- Imported partials ----- //
 @use 'header';
+@use 'intro';
 
 // ----- Variables ----- //
 $brand-black: #242635;
@@ -10,12 +11,14 @@ $brand-black: #242635;
   padding: 0;
 }
 body {
+  overflow: hidden;
   width: 320px;
+  height: 568px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // align-content: center;
   font-family: "Source Code Pro", monospace;
   font-size: 12px;
   font-weight: 400;
@@ -32,6 +35,10 @@ h1 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.1;
+  letter-spacing: 0.8px;
+}
+p {
+  text-align: center;
 }
 a {
   text-decoration: none;
