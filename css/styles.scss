@@ -50,3 +50,33 @@ a {
 }
 
 // ----- Ipad size styling ----- //
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    height: 1024px;
+    // display: flex;
+    // flex-wrap: wrap;
+    font-size: 22px;
+    border: 2px solid orange;
+    section {
+      border: 2px dotted blueviolet;
+    }
+  }
+  h1 {
+    font-size: 72px;
+  }
+  a {
+    font-size: 16px;
+  }
+}
+// ----- Desktop size styling ----- //
+@media screen and (min-width: 900px) {
+  body {
+    border: 2px dotted green;
+    section {
+      border: 2px solid purple;
+    }
+  }
+}
+
+
