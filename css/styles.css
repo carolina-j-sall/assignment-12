@@ -83,10 +83,6 @@ body {
   color: #242635;
   border: 2px solid red;
 }
-body section {
-  border: 2px dotted blue;
-}
-
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
