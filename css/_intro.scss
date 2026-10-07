@@ -44,12 +44,23 @@
     }
   }
   .intro__container {
-    height: 514px;
+    height: 500px;
     width: 617px;
+    border: 2px dotted black;
   }
 } 
 
 // ----- Desktop size styling ----- //
 @media screen and (min-width: 900px) {
-
+  .intro__content {
+    height: 385px;
+    width: 850px;
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
+  .intro__container {
+    height: 335px;
+    width: 850px;
+    margin: 0 auto;
+  }
 }

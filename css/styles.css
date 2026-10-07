@@ -75,7 +75,7 @@
   .header__nav-large {
     display: flex;
     justify-self: center;
-    min-width: 866px;
+    min-width: 850px;
   }
   .header__navbar-large {
     height: 100px;
@@ -136,8 +136,22 @@
     width: 574px;
   }
   .intro__container {
-    height: 514px;
+    height: 500px;
     width: 617px;
+    border: 2px dotted black;
+  }
+}
+@media screen and (min-width: 900px) {
+  .intro__content {
+    height: 385px;
+    width: 850px;
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
+  .intro__container {
+    height: 335px;
+    width: 850px;
+    margin: 0 auto;
   }
 }
 * {
@@ -184,6 +198,7 @@ a:focus {
 
 @media screen and (min-width: 768px) {
   body {
+    overflow: hidden;
     width: 768px;
     height: 1024px;
     font-size: 22px;
@@ -197,6 +212,7 @@ a:focus {
 }
 @media screen and (min-width: 900px) {
   body {
+    overflow: hidden;
     width: 100vw;
     height: 810px;
     font-size: 22px;

@@ -52,6 +52,7 @@ a {
 // ----- Ipad size styling ----- //
 @media screen and (min-width: 768px) {
   body {
+    overflow: hidden;
     width: 768px;
     height: 1024px;
     font-size: 22px;
@@ -66,6 +67,7 @@ a {
 // ----- Desktop size styling ----- //
 @media screen and (min-width: 900px) {
   body {
+     overflow: hidden;
     width: 100vw;
     height: 810px;
     font-size: 22px;
