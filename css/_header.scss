@@ -42,36 +42,39 @@
 }
 
 // ----- Ipad size styling ----- //
+
+// ----- Don't show mobile menu on larger screens ----- //
 @media screen and (min-width: 768px) {
   .header__navbar {
     display: none;
   }
   // ----- Tablet & desktop header, min screen size 768px ----- //
 
-  .header__navbar-large {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    border: 1px solid red;
-    .header__navbar-logo-large {
-      //  align-self: center;
-      justify-self: flex-start;
-    }
-    .header__navbar-list-large {
+  .header__nav-large {
+    width: 768px;
+    .header__navbar-large {
+      height: 100px;
+      width: 100%;
       display: flex;
-      // align-items: center;
-      justify-content: space-evenly;
-      list-style: none;
-      border: 1px solid green;
+      align-items: center;
+      border: 1px solid red;
+      .header__navbar-logo-large {
+        width: 230px;
+        justify-self: flex-start;
+      }
     }
   }
-  .header__navbar-item-large {
-    display: inline-block;
-    border: 1px dotted blue;
-  }
- 
-  .header__navbar-menu-large {
-    // align-self: center;
-    // justify-self: flex-end;
+  .header__navbar-list-large {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    border: 1px solid green;
+    .header__navbar-item-large {
+      width: 80px;
+      display: inline-block;
+      margin-right: 30px;
+      border: 1px dotted blue;
+    }
   }
 }
