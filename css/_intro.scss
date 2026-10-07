@@ -33,11 +33,18 @@
 @media screen and (min-width: 768px) {
   .intro__content {
     height: 410px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2em;
   }
   .intro__content-container {
     padding: 0 4.4em;
     .intro__content-text {
       width: 574px;
     }
+  }
+  .intro__container {
+    height: 514px;
+    width: 617px;
   }
 } 

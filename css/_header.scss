@@ -57,7 +57,6 @@
       width: 100%;
       display: flex;
       align-items: center;
-      border: 1px solid red;
       .header__navbar-logo-large {
         width: 230px;
         justify-self: flex-start;
@@ -69,12 +68,10 @@
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    border: 1px solid green;
     .header__navbar-item-large {
       width: 80px;
       display: inline-block;
       margin-right: 30px;
-      border: 1px dotted blue;
     }
   }
 }
