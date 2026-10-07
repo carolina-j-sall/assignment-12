@@ -52,6 +52,7 @@
     height: 100px;
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .header__nav-large .header__navbar-large .header__navbar-logo-large {
@@ -68,6 +69,25 @@
     width: 80px;
     display: inline-block;
     margin-right: 30px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .header__nav-large {
+    display: flex;
+    justify-self: center;
+    min-width: 866px;
+  }
+  .header__navbar-large {
+    height: 100px;
+  }
+  .header__navbar-large .header__navbar-logo-large {
+    width: 10%;
+  }
+  .header__navbar-list-large {
+    width: 50%;
+  }
+  .header__navbar-list-large .header__navbar-item-large {
+    width: 80px;
   }
 }
 .intro__content {
@@ -177,6 +197,9 @@ a:focus {
 }
 @media screen and (min-width: 900px) {
   body {
+    width: 100vw;
+    height: 810px;
+    font-size: 22px;
     border: 2px dotted green;
   }
   body section {

@@ -66,6 +66,9 @@ a {
 // ----- Desktop size styling ----- //
 @media screen and (min-width: 900px) {
   body {
+    width: 100vw;
+    height: 810px;
+    font-size: 22px;
     border: 2px dotted green;
     section {
       border: 2px solid purple;
