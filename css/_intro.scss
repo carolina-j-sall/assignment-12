@@ -36,17 +36,16 @@
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2em;
-  }
-  .intro__content-container {
-    padding: 0 4.4em;
-    .intro__content-text {
-      width: 574px;
+   .intro__content-container {
+      padding: 0 4.4em;
+      .intro__content-text {
+        width: 574px;
+      }
     }
   }
   .intro__container {
     height: 500px;
     width: 617px;
-    border: 2px dotted black;
   }
 } 
 
@@ -56,7 +55,6 @@
     height: 385px;
     width: 850px;
     margin: 0 auto;
-    border: 1px solid blue;
   }
   .intro__container {
     height: 335px;
